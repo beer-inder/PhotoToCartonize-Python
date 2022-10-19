@@ -1,5 +1,5 @@
 import cv2
- 
+ import cv2
 img = cv2.imread('img.jpg')
 grayimg = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 grayimg  = cv2.medianBlur(grayimg, 5)
